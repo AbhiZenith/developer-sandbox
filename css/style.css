@@ -61,7 +61,7 @@ a {
     justify-content: center;
     font-size: 18px;
     color: #e9ebe4;
-    background-color:rgb(149, 145, 145);
+    background-color:rgba(189, 189, 189, 0.477);
 }
 
 .main {
@@ -83,4 +83,44 @@ button {
     font-size: 18px;
     color: white;
     font-weight: 700;
+}
+
+h1, p {
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.info-head {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.feat {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.feature {
+    width: 180px;
+}
+.img {
+    width: 180px;
+    height: 180px;
+    border: 4px solid #3882f6;
+    border-radius: 12%;
+}
+ 
+.feature p {
+    font-size: 20px;
+    color: #686869;
+    padding-top: 10px; 
 }
